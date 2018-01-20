@@ -8,6 +8,7 @@ namespace LegoFigures
 {
     class figure
     {
+        public string Name { get; set; }
         public string Hair { get; set; }
         public string Head { get; set; }
         public string Torso { get; set; }
